@@ -98,7 +98,7 @@ list-style-type:none;
   color: var(--brand-color);
 }
 .main-section {
-  background-image: url(/images/business_solutions.jpg);
+  background-image: url(../images/business_solutions.jpg);
   background-color: #2f303a;
   height: 600px;
   display: flex;
