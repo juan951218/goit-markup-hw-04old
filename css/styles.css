@@ -28,6 +28,7 @@ ul{
   padding: 25px 0;
   }
 .div-header{
+  height: 30px;
   display: flex;
   gap: 60px;
 }
@@ -79,6 +80,15 @@ list-style-type:none;
   align-items: center;
 }
 /* contactos del correo y telefono */
+.information{
+  display: flex;
+  gap: 10px;
+}
+.information:hover{
+  color: var(--brand-color);
+  cursor: pointer;
+  fill: var(--brand-color);
+}
 .list-contact{
   list-style-type: none;
   display: flex;
@@ -93,9 +103,6 @@ list-style-type:none;
   font-size: 14px;
   line-height: 1.14;
   text-decoration: none;
-}
-.contact:hover {
-  color: var(--brand-color);
 }
 .main-section {
   background-image: url(../images/business_solutions.jpg);
@@ -135,7 +142,16 @@ list-style-type:none;
 .btn-request:focus{
     box-shadow: 0px 12px 15px 10px rgba(0, 0, 0, 0.1);
 }
+.svg-content{
+  background-color: #F5F4FA;
+  display: flex;
+  justify-content: center;
+  border-radius: 4px;
+  padding: 15px;
+  gap: 30px;
+}
 .features{
+  gap: 30px;
   padding-top: 30px;
   list-style-type: none;
   display:flex;
@@ -170,7 +186,23 @@ list-style-type: none;
 display: flex;
 justify-content: space-between; 
 }
+.card{
+  position: relative;
+  width: 373px;
+  height: 293px;
+  }
+.title-card{
+  width: 100%;
+  position: absolute;
+  background: rgba(47, 48, 58, 0.8);
+  color: #FFFFFF;
+  text-align: center;
+  font-weight: 700px;
+  left: 0;
+  bottom: 0px;
+}
 .title-function {
+  padding-top: 5px;
   font-family: "roboto";
   font-style: normal;
   font-weight: 700;
@@ -182,24 +214,62 @@ justify-content: space-between;
   list-style-type: none;
   display:flex;
   justify-content: space-between;
-  margin: 0;
+  margin: 0; 
+}
+.border-img{
+ background-color: #FFFFFF;
+ border-radius: 0px 0px 4px 4px;
+ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2)
 }
 .team-section {
+  padding-top: 50px;
   background: #f5f4fa;
   padding: 95px;
 }
 .team-title {
-  width: 97px;
-  height: 19px;
-  left: 295px;
-  top: 1986px;
+  display: flex;
+  justify-content: center;
   font-family: "roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
 }
+.team-icon{
+  border-radius: 50%;
+  background-color: #FFFFFF;
+}
+.team-icon:hover{
+  cursor: pointer;
+  color: var(--brand-color);
+}
+.social-media{
+  padding: 2px;
+  width: 20px;
+  height: 20px;
+}
+.social-media:hover{
+  padding: 2px;
+  background-color: var(--brand-color);
+  cursor: pointer;
+  border-radius: 50%;
+  fill: #FFFFFF;
+}
+.name-team{
+  justify-content: center;
+}
+.svg-contact{
+  fill:#AFB1B8;
+  background-color: #FFFFFF;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 30px;
+}
 .rol {
+  display: flex;
+  justify-content: center;
   font-family: "roboto";
   font-style: normal;
   font-weight: 400;
@@ -207,8 +277,39 @@ justify-content: space-between;
   line-height: 19px;
   color: #757575;
   }
+  .cust{
+    background-color: #FFFFFF;
+    line-height: 0;
+  }
+.customers{
+  list-style-type: none;
+  display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.icon-customer{
+  padding: 9px;
+  Width:106px;
+  Height:52.83px;
+  Top:2461.09px;
+  Left:247px;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+  margin-bottom: 100px;
+}
+.icon-customer:hover {
+  border: solid var(--brand-color);
+  cursor: pointer;
+}
+.footer-all{
+  display: inline;
+}
+.list-all{
+  display: flex;
+  justify-content: flex-start;
+}
   .div-footer{
-    width: 1200px;
+    width: 500px;
     padding: 15px;
     justify-content: center;
   }
@@ -235,6 +336,32 @@ justify-content: space-between;
 }
 .google-map:hover {
   color: var(--brand-color);
+}
+.ul-social{
+ list-style-type: none;
+ display: flex;
+ gap: 10px;
+}
+.soial-footer{
+ background-color: rgba(255, 255, 255, 0.1);
+}
+.icon-footer{
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  fill: #FFFFFF;
+  gap: 30px;
+}
+.icon-footer:hover{
+  background-color: var(--brand-color);
+  cursor: pointer;
+}
+.icon-footer:focus{
+  background-color: var(--brand-color);
+  cursor: pointer;
+}
+.list-style{
+  list-style-type: none;
 }
 /* portafolio */
 .ul-btn{
@@ -337,4 +464,24 @@ color:#EEEEEE;
 .sec-port{
   padding-top:50px;
   padding-bottom: 50px;
+}
+
+.regular-customers{
+  display: flex;
+  list-style-type: none;
+}
+
+.title-contact{
+  list-style-type: none;
+  display:flex;
+  justify-content: center;
+  top: 72px;
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+
 }

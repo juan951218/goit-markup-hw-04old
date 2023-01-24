@@ -30,15 +30,25 @@
       </nav>
       </div>  
       <ul class="list-contact">
-        <li>
-          <a class="contact" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
+        <div class="information">
+          <li class="svg-contact" >
+          <svg width="16" height="16">
+              <use href="./images/icons.svg#icon-mail"></use>
+             </svg>
+          </li>
+          <li> <a class="contact" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          </div>
+        <div class="information">
+        <li class="svg-contact">
+         <svg width="16" height="16">
+              <use href="./images/icons.svg#icon-mobile"></use>
+             </svg>
+         </li>
+         <li>
           <a class="contact" href="tel:+525555296000">+52 55 5529 6000</a>
-        </li>
-      </ul>
+         </li>          
+        </div>          
+       </ul>
       </div>
      </header>
     <main>
@@ -51,9 +61,11 @@
       <section class=" container section-background">
         <ul class="features">
           <li>
-          <svg width="70" height="70">
-                <use href="./images/icons.svg#icon-antenna"></use>
-              </svg>
+            <div class="svg-content">
+            <svg width="70" height="70">
+              <use href="./images/icons.svg#icon-antenna"></use>
+             </svg>
+            </div>           
             <h3 class="title-description">ATENCIÓN A LOS DETALLES</h3>
             <p class="text">
               Nos adentramos en todos los detalles y procesos de su negocio,
@@ -61,6 +73,11 @@
             </p>
           </li>
           <li>
+            <div class="svg-content">
+              <svg width="70" height="70">
+              <use href="./images/icons.svg#icon-clock"></use>
+             </svg>
+            </div>            
             <h3 class="title-description">PUNTUALIDAD</h3>
             <p class="text">
               Con nosotros, usted puede sentirse seguro y protegido. Un
@@ -69,6 +86,11 @@
             </p>
           </li>
           <li>
+            <div class="svg-content">
+<svg width="70" height="70">
+              <use href="./images/icons.svg#icon-diagram"></use>
+             </svg>
+            </div>            
             <h3 class="title-description">PLANIFICACIÓN</h3>
             <p class="text">
               Usted podrá observar y participar en cada fase del desarrollo y
@@ -76,6 +98,11 @@
             </p>
           </li>
           <li>
+            <div class="svg-content">
+<svg width="70" height="70">
+              <use href="./images/icons.svg#icon-astronaut"></use>
+             </svg>
+            </div>            
             <h3 class="title-description">TEGNOLOGÍA MODERNA</h3>
             <p class="text">
               Usamos herramientas innovadoras para resolver las tareas
@@ -86,15 +113,26 @@
       </section>
       <section class="pics-section">
         <div class="container">
- <h2 class="title-function">A qué nos dedicamos</h2>
-        <ul class="list-pics">
-          <li>
-            <img src="./images/image_1.jpg" alt="Desarrollo" width="350" />
+       <h2 class="title-function">A qué nos dedicamos</h2>
+        <ul class="list-pics">          
+          <li class="card">
+            <img  src="./images/image_1.jpg" alt="Desarrollo" width="374px" height="294px"/>
+            <div class="title-card">
+             <h3>APLICACIONES DE ESCRITORIO</h3>
+            </div>            
+          </li>         
+          <li class="card">
+            <img src="./images/image_2.jpg" alt="productos" width="374px" height="294px"/>
+            <div class="title-card">
+            <h3>APLICACIONES MÓVILES</h3>
+            </div>            
           </li>
-          <li>
-            <img src="./images/image_2.jpg" alt="productos" width="350" />
-          </li>
-          <li><img src="./images/image_3.jpg" alt="Diseño" width="350" /></li>
+          <li class="card">
+            <img src="./images/image_3.jpg" alt="Diseño" width="374" height="294px" />
+            <div class="title-card">
+            <h3>SOLUCIONES DE DISEÑO </h3>
+            </div>          
+        </li>
         </ul>
         </div>
         </section>
@@ -102,33 +140,128 @@
         <div class="container">
   <h2 class="title-function">Nuestro Equipo</h2>
         <ul class="img-team">
-          <li>
-            <img src="./images/image_4.jpg" alt="Andres Cubo" width="270" />
+          <li class="border-img">
+            <img class="team-icon" src="./images/image_4.jpg" alt="Andres Cubo" width="270" />
             <h3 class="team-title">Andrés Cubo</h3>
             <p class="rol">Diseñador de Productos</p>
+            <div class="svg-contact">
+            <svg  class="social-media">
+              <use href="./images/icons.svg#icon-instagram"></use>
+             </svg>
+             <svg class="social-media">
+              <use href="./images/icons.svg#icon-twitter"></use>
+             </svg>
+             <svg  class="social-media">
+              <use href="./images/icons.svg#icon-facebook"></use>
+             </svg>
+             <svg  class="social-media">
+              <use href="./images/icons.svg#icon-linkedin"></use>
+             </svg>
+            </div>            
           </li>
-          <li>
+          <li class="border-img">
             <img src="./images/image_5.jpg" alt="Carla Palacios" width="270"/>
             <h3 class="team-title">Carla Palacios</h3>
             <p class="rol">Desarrolladora Frontend</p>
+            <div class="svg-contact">
+              <svg class="social-media">
+              <use href="./images/icons.svg#icon-instagram"></use>
+             </svg>
+             <svg class="social-media">
+              <use href="./images/icons.svg#icon-twitter"></use>
+             </svg>
+             <svg class="social-media">
+              <use href="./images/icons.svg#icon-facebook"></use>
+             </svg>
+             <svg class="social-media">
+              <use href="./images/icons.svg#icon-linkedin"></use>
+             </svg>
+            </div>            
           </li>
-          <li>
+          <li class="border-img">
             <img src="./images/image_6.jpg" alt="Mario Dorado" width="270"/>
             <h3 class="team-title">Mario Dorado</h3>
             <p class="rol">Marketing</p>
+            <div class="svg-contact">
+             <svg class="social-media">
+              <use href="./images/icons.svg#icon-instagram"></use>
+             </svg>
+             <svg class="social-media">
+              <use href="./images/icons.svg#icon-twitter"></use>
+             </svg>
+             <svg class="social-media">
+              <use href="./images/icons.svg#icon-facebook"></use>
+             </svg>
+             <svg class="social-media">
+              <use href="./images/icons.svg#icon-linkedin"></use>
+             </svg>
+            </div>            
           </li>
-          <li>
+          <li class="border-img">
             <img src="./images/image_7.jpg" alt="Pablo Mijangos" width="270"/>
             <h3 class="team-title">Pablo Mijangos</h3>
             <p class="rol">Diseñador IU</p>
+            <div class="svg-contact">
+             <svg class="social-media">
+              <use href="./images/icons.svg#icon-instagram"></use>
+             </svg>
+             <svg class="social-media">
+              <use href="./images/icons.svg#icon-twitter"></use>
+             </svg>
+             <svg class="social-media">
+              <use href="./images/icons.svg#icon-facebook"></use>
+             </svg>
+             <svg class="social-media">
+              <use href="./images/icons.svg#icon-linkedin"></use>
+             </svg>
+            </div>            
           </li>
         </ul>
         </div>
-      </section>
-    </main>
+        </section>
+        <section>
+          <div class="container">
+      <h2 class="title-function">Clientes Regulares</h2>
+      <ul class="customers">
+        <li>
+          <svg class="icon-customer" width="70" height="40">
+                    <use href="./images/icons.svg#icon-customer1"></use>
+                  </svg>
+        </li>
+        <li>
+          <svg class="icon-customer" width="70" height="40">
+                    <use href="./images/icons.svg#icon-customer2"></use>
+                  </svg>
+        </li>
+        <li>
+          <svg class="icon-customer" width="70" height="40">
+                    <use href="./images/icons.svg#icon-customer3"></use>
+                  </svg>
+        </li>
+        <li>
+          <svg class="icon-customer" width="70" height="40">
+                    <use href="./images/icons.svg#icon-customer4"></use>
+                  </svg>
+        </li>
+        <li>
+          <svg class="icon-customer" width="70" height="40">
+                    <use href="./images/icons.svg#icon-customer5"></use>
+                  </svg>
+        </li>
+        <li>
+          <svg class="icon-customer" width="70" height="40">
+                    <use href="./images/icons.svg#icon-customer6"></use>
+                  </svg>
+        </li>
+      </ul>       
+          </div>
+          </section>          
+</main>
     <footer class="footer">
-  <div class="div-footer container">
-  <a class="name-page" href="#">WebStudio</a>
+      <ul class="list-all">
+        <li>      
+     <div class="div-footer container">
+     <a class="name-page" href="#">WebStudio</a>
       <address class="address">
         <ul class="list-footer">
           <li>
@@ -150,8 +283,38 @@
             <a class="contact" href="tel:+525555296000">+52 55 5529 6000</a>
           </li>
         </ul>
-      </address>
-  </div>      
+         </address>
+        </div>        
+        </li>      
+      <li class="list-style">     
+      <div class="social-footer">
+           <h3 class="title-contact"> ENCUENTRENOS EN</h3>
+        <ul class="ul-social">
+          <li>
+            <svg class="icon-footer" width="30" height="30">
+              <use href="./images/icons.svg#icon-instagram"></use>
+             </svg>
+             </li>
+             <li>
+           <svg class="icon-footer" width="30" height="30">
+              <use href="./images/icons.svg#icon-twitter"></use>
+             </svg>
+             </li>
+             <li>
+            <svg class="icon-footer" width="30" height="30">
+              <use href="./images/icons.svg#icon-facebook"></use>
+             </svg>
+             </li>
+            <li>
+             <svg class="icon-footer" width="30" height="30">
+              <use href="./images/icons.svg#icon-linkedin"></use>
+             </svg>
+            </li>
+            </ul>
+        </div> 
+         </div>  
+      </li>
+       </ul>
     </footer>
   </body>
 </html>
