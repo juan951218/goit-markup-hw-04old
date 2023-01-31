@@ -277,14 +277,6 @@ justify-content: space-between;
   gap: 15px;
   list-style-type: none;
 }
-.svg-contact:hover{
-  fill: var(--brand-color);
-  color:var(--brand-color);
-}
-.svg-contact:focus{
-  fill: var(--brand-color);
-  color:var(--brand-color)
-}
 .rol {
   display: flex;
   justify-content: center;
