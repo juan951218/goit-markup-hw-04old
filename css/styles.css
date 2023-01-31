@@ -270,12 +270,27 @@ justify-content: space-between;
 .name-team{
   justify-content: center;
 }
+.svg-team{
+  fill: #757575;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  list-style-type: none;
+}
 .svg-contact{
   fill: #757575;
   display: flex;
   justify-content: center;
   gap: 15px;
   list-style-type: none;
+}
+.svg-contact:hover{
+  fill: var(--brand-color);
+  color:var(--brand-color);
+}
+.svg-contact:focus{
+  fill: var(--brand-color);
+  color:var(--brand-color)
 }
 .rol {
   display: flex;
